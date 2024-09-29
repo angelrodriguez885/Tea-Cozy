@@ -4,6 +4,8 @@ body {
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    margin: 0;
+    padding: 0;
 }
 header {
     position: fixed;
@@ -13,6 +15,7 @@ header {
     height: 69px;
     border-bottom: 1px solid seashell;
     align-items: center;
+    background-color: black;
 }
 
  .title-logo img {
@@ -59,4 +62,34 @@ header {
 
 .Mission-description h2, h4 {
     margin: 10px;
+}
+
+#Featured-Tea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tea-of-the-month {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.tea-of-the-month h2, .tea-of-the-month h4 {
+    margin: 10px 0;
+}
+
+.tea-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.blitz-tea img {
+    height: 200px;
+    width: 300px;
 }
