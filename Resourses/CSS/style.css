@@ -17,7 +17,7 @@ header {
 
  .title-logo img {
     height: 50px;
-    width: 100%;
+    width: auto;
     margin-left: 10px;
  }
 
@@ -34,4 +34,15 @@ header {
 
 .navigation nav ul li a:hover {
     color: blue;
+}
+
+#Mission {
+    padding-top: 69px;
+    display: flex;
+    justify-content: center;
+}
+
+#Mission img {
+    height: 700px;
+    width: auto;
 }
