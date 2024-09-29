@@ -40,9 +40,23 @@ header {
     padding-top: 69px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #Mission img {
     height: 700px;
     width: auto;
+}
+
+.Mission-description {
+    position: absolute;
+    width: 1200px;
+    text-align: center;
+    z-index: 1;
+    background-color: black;
+    padding: none;
+}
+
+.Mission-description h2, h4 {
+    margin: 10px;
 }
