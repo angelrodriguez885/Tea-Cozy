@@ -17,6 +17,7 @@ header {
     border-bottom: 1px solid seashell;
     align-items: center;
     background-color: black;
+    z-index: 2;
 }
 
  .title-logo img {
@@ -49,7 +50,7 @@ header {
 
 #Mission img {
     height: 700px;
-    width: auto;
+    width: 1200px;
 }
 
 .mission-description {
@@ -95,11 +96,10 @@ header {
     flex-wrap: nowrap;
     gap: 30px;
     flex-wrap: wrap;
-
 }
 
 .teas h4 {
-    margin-top: 10px;
+    margin: 10px 0 0;
 }
 
 #Featured-Tea img {
@@ -107,5 +107,14 @@ header {
     width: 300px;
 }
 
-.myrtle-ave, .bedford-bizarre {
+#Locations {
+    display: flex;
 }
+
+
+#Locations img {
+    height: 500px;
+    width: 1200px;
+    margin-top: 80px;
+}
+
