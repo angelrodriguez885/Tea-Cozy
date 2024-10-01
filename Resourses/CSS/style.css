@@ -93,7 +93,6 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-wrap: nowrap;
     gap: 30px;
     flex-wrap: wrap;
 }
@@ -109,8 +108,42 @@ header {
 
 #Locations {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.all-locations {
+    position: absolute;
+}
+
+.locations {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.locations-title {
+    text-align: center;
+    width: 100%;
+}
+
+.locations-title h2 {
+    margin: 0 0 15px;
+}
+
+.locations-1, .locations-2, .locations-3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+
+}
 
 #Locations img {
     height: 500px;
@@ -118,3 +151,11 @@ header {
     margin-top: 80px;
 }
 
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    margin-top: 20px;
+}
