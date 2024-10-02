@@ -157,5 +157,17 @@ header {
     align-items: center;
     flex-direction: column;
     height: 200px;
-    margin-top: 20px;
+}
+
+.contact-info h2 {
+    margin: 0;
+}
+
+.contact-info h5 {
+    margin: 50px 0 0;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
 }
